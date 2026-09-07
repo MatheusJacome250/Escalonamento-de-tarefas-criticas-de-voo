@@ -33,6 +33,16 @@ void inserirFim(Tarefa **inicio, Tarefa **fim, Tarefa *nova) {
     }
 }
 
+void liberarLista(Tarefa *inicio) {
+    Tarefa *atual = inicio;
+
+    while (atual != NULL) {
+        Tarefa *proxima = atual->prox;
+        free(atual);
+        atual = proxima;
+    }
+}
+
 int main(int argc, char *argv[]) {
 
     if (argc != 3) {
@@ -120,5 +130,47 @@ int main(int argc, char *argv[]) {
 
     fclose(arquivo);
 
+    for (int tempo = 0; tempo < tempo_total; tempo++) {
+
+        Tarefa *atual = inicio;
+
+        while (atual != NULL) {
+
+            if (atual->tempo_restante > 0 && tempo == atual->deadline_absoluto) {
+
+                atual->perdidas++;
+                atual->tempo_restante = 0;
+            }
+
+            if (tempo == atual->proxima_chegada) {
+
+                atual->tempo_restante = atual->burst;
+                atual->deadline_absoluto = tempo + atual->deadline;
+                atual->proxima_chegada = tempo + atual->periodo;
+            }
+
+            atual = atual->prox;
+        }
+    }
+
+    Tarefa *atual = inicio;
+
+    while (atual != NULL) {
+
+        if (atual->tempo_restante > 0) {
+
+            if (atual->deadline_absoluto == tempo_total) {
+                atual->perdidas++;
+            } else {
+                atual->killed++;
+            }
+
+            atual->tempo_restante = 0;
+        }
+
+        atual = atual->prox;
+    }
+
+    liberarLista(inicio);
     return 0;
 }
