@@ -61,7 +61,22 @@ Tarefa *escolherRate(Tarefa *inicio) {
 
     return escolhida;
 }
+Tarefa *escolherEdf(Tarefa *inicio) {
+    Tarefa *escolhida = NULL;
+    Tarefa *atual = inicio;
+    while (atual != NULL) {
+        if (atual->tempo_restante > 0) {
+            if (escolhida == NULL ||
+                atual->deadline_absoluto < escolhida->deadline_absoluto) {
+                escolhida = atual;
+            }
+        }
 
+        atual = atual->prox;
+    }
+
+    return escolhida;
+}
 int main(int argc, char *argv[]) {
 
     if (argc != 3) {
@@ -105,6 +120,7 @@ int main(int argc, char *argv[]) {
         if (nova == NULL) {
             fprintf(stderr, "Erro: falha de memoria.\n");
             fclose(arquivo);
+            liberarLista(inicio);
             return 1;
         }
 
@@ -119,6 +135,7 @@ int main(int argc, char *argv[]) {
             fprintf(stderr, "Erro: arquivo malformado.\n");
             free(nova);
             fclose(arquivo);
+            liberarLista(inicio);
             return 1;
         }
 
@@ -126,6 +143,7 @@ int main(int argc, char *argv[]) {
             fprintf(stderr, "Erro: valor invalido.\n");
             free(nova);
             fclose(arquivo);
+            liberarLista(inicio);
             return 1;
         }
 
@@ -133,6 +151,7 @@ int main(int argc, char *argv[]) {
             fprintf(stderr, "Erro: tarefa invalida.\n");
             free(nova);
             fclose(arquivo);
+            liberarLista(inicio);
             return 1;
         }
 
@@ -149,7 +168,12 @@ int main(int argc, char *argv[]) {
 
     fclose(arquivo);
 
-    FILE *saida = fopen("rate_masj.out", "w");
+    FILE *saida;
+    if (strcmp(argv[1], "rate") == 0) {
+        saida = fopen("rate_masj.out", "w");
+    } else {
+        saida = fopen("edf_masj.out", "w");
+    }
 
     if (saida == NULL) {
         fprintf(stderr, "Erro: nao foi possivel criar o arquivo de saida.\n");
@@ -157,7 +181,11 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    fprintf(saida, "EXECUTION BY RATE\n");
+    if (strcmp(argv[1], "rate") == 0) {
+        fprintf(saida, "EXECUTION BY RATE\n");
+    } else {
+        fprintf(saida, "EXECUTION BY EDF\n");
+    }
 
     Tarefa *anterior = NULL;
     int unidades_bloco = 0;
@@ -193,50 +221,39 @@ int main(int argc, char *argv[]) {
             atual = atual->prox;
         }
 
+Tarefa *executando;
+
         if (strcmp(argv[1], "rate") == 0) {
-            Tarefa *executando = escolherRate(inicio);
+            executando = escolherRate(inicio);
+        } else {
+            executando = escolherEdf(inicio);
+        }
 
-            if (executando != NULL) {
-
-                if (unidades_idle > 0) {
-                    fprintf(saida, "idle for %d units\n", unidades_idle);
-                    unidades_idle = 0;
-                }
-
-                if (anterior == NULL) {
-
-                    anterior = executando;
-                    unidades_bloco = 0;
-
-                } else if (anterior != executando) {
-
-                    fprintf(saida, "[%s] for %d units - H\n",
-                            anterior->nome, unidades_bloco);
-
-                    anterior = executando;
-                    unidades_bloco = 0;
-                }
-
-                unidades_bloco++;
-
-                executando->tempo_restante--;
-
-                if (executando->tempo_restante == 0) {
-
-                    executando->completas++;
-
-                    fprintf(saida, "[%s] for %d units - F\n",
-                            executando->nome, unidades_bloco);
-
-                    anterior = NULL;
-                    unidades_bloco = 0;
-                }
-
-            } else {
-
-                unidades_idle++;
+        if (executando != NULL) {
+            if (unidades_idle > 0) {
+                fprintf(saida, "idle for %d units\n", unidades_idle);
+                unidades_idle = 0;
             }
-
+            if (anterior == NULL) {
+                anterior = executando;
+                unidades_bloco = 0;
+            } else if (anterior != executando) {
+                fprintf(saida, "[%s] for %d units - H\n",
+                        anterior->nome, unidades_bloco);
+                anterior = executando;
+                unidades_bloco = 0;
+            }
+            unidades_bloco++;
+            executando->tempo_restante--;
+            if (executando->tempo_restante == 0) {
+                executando->completas++;
+                fprintf(saida, "[%s] for %d units - F\n",
+                        executando->nome, unidades_bloco);
+                anterior = NULL;
+                unidades_bloco = 0;
+            }
+        } else {
+            unidades_idle++;
         }
     }
     if (unidades_idle > 0) {
@@ -259,18 +276,9 @@ int main(int argc, char *argv[]) {
 
                 atual->perdidas++;
 
-            } else {
-
-                if (atual == anterior && unidades_bloco > 0) {
-                    fprintf(saida, "[%s] for %d units - K\n",
-                            atual->nome, unidades_bloco);
-
-                    anterior = NULL;
-                    unidades_bloco = 0;
-                }
-
-                atual->killed++;
-            }
+            }else {
+    atual->killed++;
+}
 
             atual->tempo_restante = 0;
         }
