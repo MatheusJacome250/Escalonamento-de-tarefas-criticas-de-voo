@@ -1,36 +1,62 @@
 Script started on 2026-09-09 19:54:39-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="117" LINES="11"]
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mdate[27m
-[7mwhoami[27m
-[7mpwd[27m[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ date
-whoami
-pwd
-[?2004lWed Sep  9 19:54:47 -03 2026
+
+[7mwhoami[27m
+
+[7mpwd[27m[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ date
+
+whoami
+
+pwd
+[?2004l
+Wed Sep  9 19:54:47 -03 2026
 mathe
 /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mmake clean[27m
-[7mmake[27m[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ make clean
-make
-[?2004lrm -f scheduler
+
+[7mmake[27m[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ make clean
+
+make
+[?2004l
+rm -f scheduler
 gcc -Wall -Wextra -std=c11 main.c -o scheduler
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls[27mls
-[?2004l[0m[01;32mMakefile[0m  [01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmain.c[0m  [01;32mscheduler[0m
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ^C[?2004l[?2004h[?2004l
+[?2004l
+[0m[01;32mMakefile[0m  [01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmain.c[0m  [01;32mscheduler[0m
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ^C[?2004l
+[?2004h[?2004l
+
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > voo.txt << 'EOF'[27m
-[7m100[27m
-[7mATT 20 12 8[27m
-[7mNAV 50 30 15[27m
-[7mEOF[27m[A[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > voo.txt << 'EOF'
-100
-ATT 20 12 8
-NAV 50 30 15
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat voo.txt[27mcat voo.txt
-[?2004l100
+
+[7m100[27m
+
+[7mATT 20 12 8[27m
+
+[7mNAV 50 30 15[27m
+
+[7mEOF[27m[A[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > voo.txt << 'EOF'
+
+100
+
+ATT 20 12 8
+
+NAV 50 30 15
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat voo.txt[27mcat voo.txt
+[?2004l
+100
 ATT 20 12 8
 NAV 50 30 15
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate voo.txt[27m./scheduler rate voo.txt
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat rate_masj.out[27mcat rate_masj.out
-[?2004lEXECUTION BY RATE
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat rate_masj.out[27mcat rate_masj.out
+[?2004l
+EXECUTION BY RATE
 [ATT] for 8 units - F
 [NAV] for 12 units - H
 [ATT] for 8 units - F
@@ -53,10 +79,14 @@ COMPLETE EXECUTION
 KILLED
 [ATT] 0
 [NAV] 0
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ^C[?2004l
+[?2004h[?2004l
+
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler edf voo.txt[27m./scheduler edf voo.txt
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat edf_masj.out[27mcat edf_masj.out
-[?2004lEXECUTION BY EDF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat edf_masj.out[27mcat edf_masj.out
+[?2004l
+EXECUTION BY EDF
 [ATT] for 8 units - F
 [NAV] for 15 units - F
 [ATT] for 8 units - F
@@ -79,116 +109,249 @@ KILLED
 [ATT] 0
 [NAV] 0
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mrm -f rate_masj.out edf_masj.out[27mrm -f rate_masj.out edf_masj.out
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler[27m./scheduler
-[?2004lErro: numero incorreto de argumentos.
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler[27m./scheduler
+[?2004l
+Erro: numero incorreto de argumentos.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27m[1Pls rate_masj.out edf_masj.ou[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler abc voo.txt[27m./scheduler abc voo.txt
-[?2004lErro: algoritmo invalido.
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27m[1Pls rate_masj.out edf_masj.ou[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler abc voo.txt[27m./scheduler abc voo.txt
+[?2004l
+Erro: algoritmo invalido.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
-[?2004lErro: nao foi possivel abrir o arquivo de entrada.
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
+[?2004l
+Erro: nao foi possivel abrir o arquivo de entrada.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
-[?2004lErro: nao foi possivel abrir o arquivo de entrada.
+[?2004l
+Erro: nao foi possivel abrir o arquivo de entrada.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
-[?2004lErro: nao foi possivel abrir o arquivo de entrada.
+[?2004l
+Erro: nao foi possivel abrir o arquivo de entrada.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
-[?2004lErro: nao foi possivel abrir o arquivo de entrada.
+[?2004l
+Erro: nao foi possivel abrir o arquivo de entrada.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate arquivo_que_nao_existe.txt[27m./scheduler rate arquivo_que_nao_existe.txt
-[?2004lErro: nao foi possivel abrir o arquivo de entrada.
+[?2004l
+Erro: nao foi possivel abrir o arquivo de entrada.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > malformado.txt << 'EOF'[27m
-[7m100[27m
-[7mATT 20 12[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > malformado.txt << 'EOF'
-100
-ATT 20 12
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate malformado.txt[27m./scheduler rate malformado.txt
-[?2004lErro: arquivo malformado.
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > malformado.txt << 'EOF'[27m
+
+[7m100[27m
+
+[7mATT 20 12[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > malformado.txt << 'EOF'
+
+100
+
+ATT 20 12
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate malformado.txt[27m./scheduler rate malformado.txt
+[?2004l
+Erro: arquivo malformado.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > nao_numerico.txt << 'EOF'[27m
-[7m100[27m
-[7mATT vinte 12 8[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > nao_numerico.txt << 'EOF'
-100
-ATT vinte 12 8
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate nao_numerico.txt[27m./scheduler rate nao_numerico.txt
-[?2004lErro: arquivo malformado.
+
+[7m100[27m
+
+[7mATT vinte 12 8[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > nao_numerico.txt << 'EOF'
+
+100
+
+ATT vinte 12 8
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate nao_numerico.txt[27m./scheduler rate nao_numerico.txt
+[?2004l
+Erro: arquivo malformado.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > valor_invalido.txt << 'EOF'[27m
-[7m100[27m
-[7mATT 20 12 0[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > valor_invalido.txt << 'EOF'
-100
-ATT 20 12 0
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate valor_invalido.txt[27m./scheduler rate valor_invalido.txt
-[?2004lErro: valor invalido.
+
+[7m100[27m
+
+[7mATT 20 12 0[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > valor_invalido.txt << 'EOF'
+
+100
+
+ATT 20 12 0
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate valor_invalido.txt[27m./scheduler rate valor_invalido.txt
+[?2004l
+Erro: valor invalido.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > deadline_maior_periodo.txt << 'EOF'[27m
-[7m100[27m
-[7mATT 20 25 8[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > deadline_maior_periodo.txt << 'EOF'
-100
-ATT 20 25 8
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate deadline_maior_periodo.txt[27m./scheduler rate deadline_maior_periodo.txt
-[?2004lErro: tarefa invalida.
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > deadline_maior_periodo.txt << 'EOF'[27m
+
+[7m100[27m
+
+[7mATT 20 25 8[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > deadline_maior_periodo.txt << 'EOF'
+
+100
+
+ATT 20 25 8
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate deadline_maior_periodo.txt[27m./scheduler rate deadline_maior_periodo.txt
+[?2004l
+Erro: tarefa invalida.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > burst_maior_deadline.txt << 'EOF'[27m
-[7m100[27m
-[7mATT 20 12 15[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > burst_maior_deadline.txt << 'EOF'
-100
-ATT 20 12 15
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate burst_maior_deadline.txt[27m./scheduler rate burst_maior_deadline.txt
-[?2004lErro: tarefa invalida.
+
+[7m100[27m
+
+[7mATT 20 12 15[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > burst_maior_deadline.txt << 'EOF'
+
+100
+
+ATT 20 12 15
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate burst_maior_deadline.txt[27m./scheduler rate burst_maior_deadline.txt
+[?2004l
+Erro: tarefa invalida.
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mls rate_masj.out edf_masj.out[27mls rate_masj.out edf_masj.out
-[?2004lls: cannot access 'rate_masj.out': No such file or directory
+[?2004l
+ls: cannot access 'rate_masj.out': No such file or directory
 ls: cannot access 'edf_masj.out': No such file or directory
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > limite.txt << 'EOF'[27m
-[7m1[27m
-[7mMIN 1 1 1[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > limite.txt << 'EOF'
-1
-MIN 1 1 1
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate limite.txt[27m
-[7mcat rate_masj.out[27m[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ./scheduler rate limite.txt
-cat rate_masj.out
-[?2004lEXECUTION BY RATE
+
+[7m1[27m
+
+[7mMIN 1 1 1[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > limite.txt << 'EOF'
+
+1
+
+MIN 1 1 1
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate limite.txt[27m
+
+[7mcat rate_masj.out[27m[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ./scheduler rate limite.txt
+
+cat rate_masj.out
+[?2004l
+EXECUTION BY RATE
 [MIN] for 1 units - F
 LOST DEADLINES
 [MIN] 0
@@ -197,23 +360,41 @@ COMPLETE EXECUTION
 KILLED
 [MIN] 0
 [?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mcat > killed.txt << 'EOF'[27m
-[7m5[27m
-[7mA 10 10 8[27m
-[7mEOF[27m[A[A[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > killed.txt << 'EOF'
-5
-A 10 10 8
-EOF
-[?2004l[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate killed.txt[27m
-[7mcat rate_masj.out[27m[A]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ./scheduler rate killed.txt
-cat rate_masj.out
-[?2004lEXECUTION BY RATE
+
+[7m5[27m
+
+[7mA 10 10 8[27m
+
+[7mEOF[27m[A[A[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ cat > killed.txt << 'EOF'
+
+5
+
+A 10 10 8
+
+EOF
+[?2004l
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7m./scheduler rate killed.txt[27m
+
+[7mcat rate_masj.out[27m[A
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ ./scheduler rate killed.txt
+
+cat rate_masj.out
+[?2004l
+EXECUTION BY RATE
 LOST DEADLINES
 [A] 0
 COMPLETE EXECUTION
 [A] 0
 KILLED
 [A] 1
-[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [K]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mexit[27mexit
-[?2004lexit
+[?2004h]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ 
+[K
+]0;mathe@Mjcome: /mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[01;32mmathe@Mjcome[00m:[01;34m/mnt/d/3pSO/imp3/Escalonamento-de-tarefas-criticas-de-voo[00m$ [7mexit[27mexit
+[?2004l
+exit
 
 Script done on 2026-09-09 20:43:00-03:00 [COMMAND_EXIT_CODE="0"]
+
